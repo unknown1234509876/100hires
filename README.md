@@ -25,7 +25,7 @@ now let's ask chatgpt where can I find extentions in cursor like where am I supp
 chatgpt gave me 2 option either use claude models inside cursor and other claude code extentions
 the first method yeah go to settings models enable sonnet opus model which were already enabled but you have to add the api keys but that was not the task so 
 let's go to 2nd option the shortcut ctrl+shift+X didn't work and I could not find claude code in customize section so both methods failed because I couldn't find where is the extentions tab
-now I opened the old is gold youtube and searched on how to install claude extention on cursor i find a video I will paste the link but there was a difference my cursor was a bit different from his because it was having extentions under view options but mine didn't so I youtube again but unfortunately the videos were about how to install extention not actually why extentions options was missing in the first place
+now I opened the old is gold youtube and searched on how to install claude extention on cursor i find a video https://youtu.be/5E5ByxaOKuo but there was a difference my cursor was a bit different from his because it was having extentions under view options but mine didn't so I youtube again but unfortunately the videos were about how to install extention not actually why extentions options was missing in the first place
 so I chatgppt gave 3 options when I said ctrl+shift+X not working 
 method 1left sidebar click extentions icon which is not visible
 method 2 Ctrl + Shift + P then type Extensions: Show Extensions again not working

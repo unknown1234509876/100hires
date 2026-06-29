@@ -1,3 +1,403 @@
+Disclaimer -Okay so whosoever is reading this first of thanks for this opportunity it was actually fun to do and I wish I can be a part of your team as I myself prefers the actual skills
+this file might be lengthy but I can confidentially say that I did what you wanted as first while doing the task I did mention my thoughts in raw format in broken English and so on, I know it might sound unprofessional but your task is makes you think like a developer not like an interview so I hope you won't mind, but just in case you ant professionalism I also put my raw thoughts about the steps issues to chatgpt to create this professional summary, but in case if you want to actually want to know what I went through i want you to please scroll down a bit and you will find the messy thoughts
+Thank You
+Divyam Jain(J.D.)
+
+
+
+
+# 100Hires Portfolio Project
+
+## Objective
+
+This repository documents the setup process required for the 100Hires portfolio project. The goal was to install the required development tools, configure them, connect GitHub, and document both the successful steps and the issues encountered along the way.
+
+---
+
+# Step 1: Install Cursor IDE
+
+- Visited the Cursor website.
+- Downloaded the Windows x64 version.
+- Ran the installer.
+- Accepted the license agreement.
+- Chose the installation directory.
+- Created desktop shortcuts.
+- During installation I searched whether I needed to add Cursor to the PATH.
+- Learned that PATH allows Windows to locate installed programs from the command line.
+- Completed the installation.
+- Launched Cursor.
+
+---
+
+# Step 2: Create a Cursor Account
+
+Since this was my first time using Cursor:
+
+- Clicked **Sign Up**.
+- Browser opened automatically.
+- Chose to sign up using email.
+- Completed CAPTCHA verification.
+- Verified the account using the email verification code.
+- Selected:
+  - Personal account
+  - Profession: Other
+- Skipped the Individual Plan setup.
+- Disabled optional usage data sharing.
+- Skipped GitHub connection for later.
+- Logged into the Cursor desktop application.
+
+---
+
+# Step 3: Install Claude Code Extension
+
+## Initial Problem
+
+I couldn't find the Extensions tab.
+
+I tried:
+
+- Searching inside Customize
+- Ctrl + Shift + X
+- View → Extensions
+- Ctrl + Shift + P → "Extensions: Show Extensions"
+
+None of these worked.
+
+## Troubleshooting
+
+I searched YouTube for tutorials.
+
+The videos showed an Extensions tab that did not exist in my Cursor window.
+
+I then asked ChatGPT.
+
+It suggested:
+
+1. Opening a folder.
+2. Creating a source code file.
+3. Opening the Editor workspace.
+
+I first created a folder.
+
+That did not work.
+
+Next I accidentally created:
+
+```
+test.py.txt
+```
+
+instead of
+
+```
+test.py
+```
+
+This also did not work.
+
+Eventually ChatGPT explained that I was still on Cursor's Home/Agent dashboard rather than the actual code editor.
+
+I opened the Editor window.
+
+After renaming:
+
+```
+test.py.txt
+```
+
+to
+
+```
+test.py
+```
+
+the full VS Code interface appeared.
+
+The Extensions tab became available.
+
+## Installing Claude
+
+- Opened Extensions.
+- Searched **Claude Code**.
+- Installed the extension.
+- Trusted the publisher.
+- Opened Claude.
+- Selected login using Anthropic Console.
+- Browser opened.
+- Logged in using Google.
+- Selected Individual account.
+- Skipped API key creation.
+- Authorized Cursor.
+- Successfully connected Claude.
+
+---
+
+# Step 4: Install Codex Extension
+
+Opened Extensions.
+
+Searching "Codex" returned nothing.
+
+Searching "OpenAI" displayed the Codex extension.
+
+Steps:
+
+- Installed Codex.
+- Trusted publisher.
+- Selected **Sign in with ChatGPT**.
+- Browser opened.
+- Logged in using Google.
+- Authorization completed successfully.
+- Returned to Cursor.
+
+Codex was now connected.
+
+---
+
+# Step 5: Create GitHub Repository
+
+I already had a GitHub account.
+
+Created a new repository:
+
+```
+100hires
+```
+
+Visibility:
+
+```
+Public
+```
+
+Copied the repository URL.
+
+---
+
+# Step 6: Clone Repository
+
+Initially I tried using:
+
+```
+Git: Clone
+```
+
+through the Command Palette.
+
+The command was unavailable.
+
+Instead I opened the terminal and ran:
+
+```bash
+git clone https://github.com/unknown1234509876/100hires
+```
+
+This produced the error:
+
+```
+git is not recognized as an internal or external command
+```
+
+---
+
+# Step 7: Install Git
+
+Installed Git for Windows.
+
+During installation I selected:
+
+```
+Git from the command line and also from 3rd-party software
+```
+
+Verified installation:
+
+```bash
+git --version
+```
+
+Output:
+
+```
+git version 2.54.0.windows.1
+```
+
+Configured Git:
+
+```bash
+git config --global user.name "unknown1234509876"
+
+git config --global user.email "divyamjain2409@gmail.com"
+```
+
+---
+
+# Step 8: Clone Repository Again
+
+Ran:
+
+```bash
+git clone https://github.com/unknown1234509876/100hires
+```
+
+Repository cloned successfully.
+
+Git displayed that the repository was empty, which was expected.
+
+Opened the repository:
+
+```bash
+cd 100hires
+
+cursor .
+```
+
+Cursor opened the repository in a new window.
+
+---
+
+# Step 9: Create README
+
+Created:
+
+```
+README.md
+```
+
+Started documenting the complete setup process.
+
+---
+
+# Step 10: First Commit
+
+Added files:
+
+```bash
+git add .
+```
+
+Created the first commit:
+
+```bash
+git commit -m "Initial commit"
+```
+
+Pushed to GitHub:
+
+```bash
+git push
+```
+
+---
+
+# Step 11: Updating the README
+
+After making changes to README.md, I attempted:
+
+```bash
+git commit -m "change 2"
+```
+
+Git returned:
+
+```
+Changes not staged for commit
+```
+
+## Issue
+
+I had modified the README but forgot two important steps:
+
+1. Save the file.
+2. Stage the changes.
+
+## Solution
+
+Saved the file in Cursor.
+
+Ran:
+
+```bash
+git add .
+```
+
+Then:
+
+```bash
+git commit -m "change 2"
+
+git push
+```
+
+The changes were successfully uploaded to GitHub.
+
+---
+
+# Tools Installed
+
+- Cursor IDE
+- Git
+- Claude Code Extension
+- OpenAI Codex Extension
+
+---
+
+# Skills Demonstrated
+
+- Installing development tools
+- Setting up Git
+- Configuring GitHub
+- Repository creation
+- Cloning repositories
+- Using Git commands
+- Installing Cursor extensions
+- Troubleshooting installation issues
+- Research using documentation, YouTube, and AI tools
+- Problem-solving through iterative debugging
+
+---
+
+# Challenges Faced
+
+- Could not locate the Extensions tab in Cursor.
+- Accidentally created a `.py.txt` file instead of a `.py` file.
+- Git was not installed initially.
+- Repository cloning initially failed because Git was missing.
+- Forgot to stage modified files before committing.
+
+Each issue was resolved through documentation, YouTube tutorials, ChatGPT guidance, and testing different approaches until the correct solution was found.
+
+---
+
+# Outcome
+
+Successfully completed all required tasks:
+
+- Cursor installed
+- Claude installed and authenticated
+- Codex installed and authenticated
+- Git installed and configured
+- Public GitHub repository created
+- Repository opened in Cursor
+- README created
+- Changes committed
+- Repository pushed to GitHub
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------RAW Thoughts below -----------------------------------------------------
+
+
+
+
+
+
 go to cursor website
 click download 
 choose your operating system and version I did x64 system windows you may choose mac if you use macos, Linux verion based upon distro

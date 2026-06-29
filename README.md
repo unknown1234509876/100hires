@@ -72,5 +72,22 @@ a new cursor window opened with my repository
 created README.md file
 I then pasted all this data in this file and pushed as of here the file you will be receiving will be updated to below 
 git add .
-git commit -m "unprofessional commit"
+git commit -m "Initial commit"
 git push
+
+i accidentally typed unprofessiona commit and it worked but I could not find the text inside the file
+tried ctrl + S then this
+git commit -m "change 2" got error        
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed) 
+  (use "git restore <file>..." to discard changes in workingdirectory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit-a")
+realized 2 things to be done first save the file in cursor 
+then also run git add .
+then same commit and then git push
+
